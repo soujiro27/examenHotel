@@ -3,11 +3,14 @@ html(lang="en")
 head
   meta(charset="UTF-8")
   title Sistema de Hotel
+  link(rel="stylesheet", href="normalize.css")
   link(rel="stylesheet", href="estilo.css")
+  script(src="jquery.js")
+  script(src="examen.js")
 body
   header
     figure
-      img(src="", alt="")
+      img(src="logo.png", alt="logo")
     h1 Hotel Berenjena
   h2 Sistema de Habitaciones
   section
@@ -16,13 +19,14 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 101
         div
           p Status:
           p.status Libre
         div.cambioStatus
           select
+            option(value="0") Escoga una Opcion
             option(value="1") Libre
             option(value='2') Ocupada
             option(value='3') Limpieza
@@ -31,7 +35,7 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 102
         div
           p Status:
@@ -40,7 +44,7 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 103
         div
           p Status:
@@ -49,7 +53,7 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 104
         div
           p Status:
@@ -58,7 +62,7 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 105
         div
           p Status:
@@ -67,7 +71,7 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 106
         div
           p Status:
@@ -76,7 +80,7 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 107
         div
           p Status:
@@ -85,7 +89,7 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 108
         div
           p Status:
@@ -94,7 +98,7 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 109
         div
           p Status:
@@ -103,7 +107,7 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 1010
         div
           p Status:
@@ -112,7 +116,7 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 1011
         div
           p Status:
@@ -121,7 +125,7 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 1012
         div
           p Status:
@@ -130,7 +134,7 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 1013
         div
           p Status:
@@ -139,7 +143,7 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 1014
         div
           p Status:
@@ -148,7 +152,7 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 1015
         div
           p Status:
@@ -157,23 +161,23 @@ body
         div.habitacion
           p
         div
-          p No. Habitacion
+          p No.
           p 1016
         div
           p Status:
           p.status Libre
-    div
+    
     div.statusRooms
       div(class="libres")
-        p Libres
-        p
-      div.Ocupadas
-        p Ocupadas
-        p
+        p Libres 
+        p 16
+      div.ocupadas
+        p Ocupadas 
+        p 0
       div.limpieza
         p Limpieza
-        p
+        p 0
       div.mantenimiento
         p Mantenimiento
-        p  
+        p 0  
   
